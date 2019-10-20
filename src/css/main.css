@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Open+Sans&display=swap');
+
+
+.title {
+    font-family: "Playfair Display";
+    font-size: 96px;
+    text-align: center;
+}
+
+.content {
+    font-family: "IBM Plex Serif";
+}

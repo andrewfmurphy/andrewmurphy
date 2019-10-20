@@ -1,12 +1,35 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: Sunrise in Los Angeles
+date: "2019-10-10T22:12:03.284Z"
+description: "Lakers"
 ---
 
-This is my first post on my new fake blog! How exciting!
+There's a new feeling in Los Angeles.
 
-I'm sure I'll write a lot more interesting things in the future.
+Context
+
+Warriors first quarter
+
+Lebron James
+
+Anthony Davis
+
+Team composition
+
+Supporting cast
+
+Load management - injury risk
+
+Rest of situation in the west
+
+Hype, living up to expectations
+
+What is the championship window for the lakers?
+
+As the warriors showed, its hard to go back to back to back
+
+
+
 
 Oh, and here's a great quote from this Wikipedia on
 [salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).
