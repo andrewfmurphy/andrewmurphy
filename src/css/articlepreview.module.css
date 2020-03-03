@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
+
+.article {
+    font-family: "PT Mono";
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+}
+
+.title {
+    color: #222222;
+    text-decoration: none;
+    font-size: 36px;
+    margin-bottom: .5%;
+    border-bottom: 1px solid black;
+    margin-top: .5%;
+    display: block;
+}
+
+.titlenosubtitle {
+    color: #222222;
+    text-decoration: none;
+    font-size: 36px;
+    margin-bottom: .5%;
+    margin-top: .5%;
+    display: block;
+}
+
+.subtitle {
+    text-transform: lowercase;
+}
+
+.title:active {
+    color: #222222;
+}
+
+.title:visited {
+    color: #222222;
+}
+
+.info span{
+    margin-right: 1%;
+    padding-left: 1%;
+    border-left: 1px solid black;
+}
+
+.info {
+    display: inline;
+}
+
+.category {
+    float: right;
+}
