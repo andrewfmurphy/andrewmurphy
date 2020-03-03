@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Spaghetti Code`,
+    title: `Andrew Murphy`,
     author: `Andrew Murphy`,
-    description: `Blog? Journalism? What's the difference`,
+    description: `Andrew Murphy's Personal Website`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `kylemathews`,
@@ -14,6 +14,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content/blog`,
         name: `blog`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/longform`,
+        name: `longform`,
       },
     },
     {
@@ -68,11 +75,5 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
   ],
 }

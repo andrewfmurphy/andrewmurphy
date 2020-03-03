@@ -5,11 +5,14 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const longformlinks = path.resolve('src/templates/project-post.js')
+
   const result = await graphql(
     `
       {
         allMarkdownRemark(
           sort: { fields: [frontmatter___date], order: DESC }
+          filter: {fileAbsolutePath: {regex: "/blog/"  }}
           limit: 1000
         ) {
           edges {
